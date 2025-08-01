@@ -1118,3 +1118,10 @@ body.light-mode .profile-links, body.light-mode .about-text{
     height: 150px;
   }
 }
+
+ /* No transitions on smaller screens */
+@media (max-width: 768px) {
+  body, html, .navbar, .card, .footer {
+    transition: none !important;
+  }
+}
