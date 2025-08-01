@@ -8,7 +8,7 @@ const images = [
     alt: 'Cyrano',
     caption: 'Cyrano de Bergerac (Play)',
     sub: 'WATCH HERE',
-    link: 'pages/cyrano.html',
+    link: 'https://vimeo.com/user191440437',
   },
    {
     src: '/arts/PortalPoster.jpg',
