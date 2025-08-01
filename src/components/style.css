@@ -1125,3 +1125,280 @@ body.light-mode .profile-links, body.light-mode .about-text{
     transition: none !important;
   }
 }
+
+
+/* PROJECT PAGES --------------------------------------------------------- */
+/* === PROJECT PAGE STYLING === */
+.project-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(11, 11, 13, 0.9); /* dark background with 0.9 opacity */
+  border-radius: 12px;
+  color: var(--text-light); /* light text for dark mode */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .project-container {
+  background-color: rgba(249, 252, 255, 0.8);
+  color: var(--text-dark); /* dark text for light mode */
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-header img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-subheader {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-links {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.project-links a {
+  color: var(--accent-color);
+  margin: 0 0.75rem;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-divider {
+  border: none;
+  height: 1px;
+  background: var(--divider-color, #ccc);
+  width: 40%;
+  margin: 1.5rem auto;
+}
+
+/* === SECTION HEADINGS === */
+.project-section {
+  margin-top: 2.5rem;
+}
+
+.project-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.section-tag{
+    font-family: 'Datalegreya Thin';
+      font-size: 1.5rem;
+
+}
+
+/* === PARAGRAPH === */
+.project-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: inherit; /* inherit light or dark text color */
+  margin-bottom: 2rem;
+}
+
+/* === IMAGE === */
+.project-image-full {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+}
+
+.project-image-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  opacity: 0.75;
+}
+
+/* Slideshow styling */
+.project-image-slideshow {
+  width: 100%;
+  overflow: hidden;
+}
+
+.project-slides {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
+}
+
+.project-slide {
+  flex: 0 0 auto;
+  width: 300px;
+  scroll-snap-align: center;
+}
+
+.project-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.video-container {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 960px; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* border-radius: 0.5rem; */
+}
+.slideshow-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  max-height: 500px; /* Constrains slideshow height */
+  width: auto;
+}
+
+.slideshow-container img,
+.slideshow-container video {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+}
+
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.slideshow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.slideshow-button:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.slideshow-button.left {
+  left: 10px;
+}
+
+.slideshow-button.right {
+  right: 10px;
+}
+
+.slideshow-dots {
+  margin-top: 1rem;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: var(--accent-color, #555);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.project-image-third {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-image-third:hover {
+  transform: scale(1.03);
+}
+
+
+/* Optional Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+@media (max-width: 768px) {
+  .project-header img {
+    max-height: 250px;
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .project-section h2 {
+    font-size: 1.3rem;
+  }
+   .project-slide {
+    width: 80%;
+  }
+
+  .project-divider {
+    width: 60%;
+  }
+
+}

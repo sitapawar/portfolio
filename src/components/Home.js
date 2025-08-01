@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import Footer from './Footer';
 import AbstractOverlay from './abstractOverlay';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';

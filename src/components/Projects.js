@@ -12,7 +12,7 @@ export default function Projects() {
       className="projects-page"
     >
       <div className="gallery-header">
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         {/* <p className="lead">Selected works in design, development, and data storytelling</p> */}
       </div>
 
@@ -21,7 +21,7 @@ export default function Projects() {
         <div id="folio-wrapper">
   <div className="project-card">
     <img src="/images/zounds.png" alt="Zounds" />
-    <a href="pages/Zounds.html" className="project-hover">
+    <a href="/zounds" className="project-hover">
       <h3 className="project-title">zounds.</h3>
       <span className="project-subtitle">React, Product Design, Data Visualization, Database Management</span>
     </a>
@@ -29,7 +29,7 @@ export default function Projects() {
 
   <div className="project-card">
     <img src="/images/DPTSquare2.png" alt="DPT Site" />
-    <a href="pages/DPT.html" className="project-hover">
+    <a href="/dpt" className="project-hover">
       <h3 className="project-title">DIGITAL PYRAMID TEXTS (DPT)</h3>
       <span className="project-subtitle">Front End Design, Development, Data</span>
     </a>
@@ -37,7 +37,7 @@ export default function Projects() {
 {/* Amazon Amp */}
 <div className="project-card">
   <img src="images/amp3.png" alt="Amazon Amp" />
-  <a href="pages/amp.html" className="project-hover">
+  <a href="/amp" className="project-hover">
     <h3 className="project-title">AMAZON AMP</h3>
     <span className="project-subtitle">Storyboarding, Concept Art, 3D Modeling</span>
   </a>
@@ -52,19 +52,19 @@ export default function Projects() {
   </a>
 </div>
 
-{/* Open Source Shakespeare */}
+{/* Open Source Shakespeare
 <div className="project-card">
   <img src="images/oss2.png" alt="Responsive Redesign" />
   <a href="pages/oss.html" className="project-hover">
     <h3 className="project-title">OPEN SOURCE SHAKESPEARE</h3>
     <span className="project-subtitle">Responsive Redesign and Development</span>
   </a>
-</div>
+</div> */}
 
 {/* Partiful */}
 <div className="project-card">
   <img src="images/partiful1.png" alt="Partiful" />
-  <a href="pages/partiful.html" className="project-hover">
+  <a href="/partiful" className="project-hover">
     <h3 className="project-title">PARTIFUL</h3>
     <span className="project-subtitle">Profile Design and Prototyping</span>
   </a>
