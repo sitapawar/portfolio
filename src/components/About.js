@@ -22,8 +22,8 @@ export default function About() {
   <div class="profile-links">
     <a href="https://www.linkedin.com/in/3b890521a/" ><b>LinkedIn</b></a>
     <span>·</span>
-      <a href="https://github.com/sitapawar" ><b>GitHub</b></a>
-    <span>·</span>
+    <a href="https://github.com/sitapawar" ><b>Github</b></a>
+<span>·</span>
     <a href="/books"><b>Books I Love</b></a>
   </div>
 </div>

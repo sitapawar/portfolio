@@ -6,7 +6,7 @@ const images = [
     {
     src: '/arts/Cyrano.jpg',
     alt: 'Cyrano',
-    caption: 'Cyrano de Bergerax',
+    caption: 'Cyrano de Bergerac (Play)',
     sub: 'WATCH HERE',
     link: 'pages/cyrano.html',
   },
@@ -19,7 +19,7 @@ const images = [
   },{
     src: '/arts/cs128Final.png',
     alt: 'Animation Final',
-    caption: 'Animation Simulation',
+    caption: 'Animation Study',
     sub: 'WATCH HERE',
     link: 'https://vimeo.com/123456789',
 
@@ -65,13 +65,13 @@ const images = [
     src: '/arts/moya1.png',
     alt: 'Acrylic Portrait',
     caption: 'Acrylic Portrait',
-    sub: 'by Sita Pawar',
+    // sub: 'by Sita Pawar',
   },
   {},{
-    src: '/arts/Knights.png',
-    alt: 'Oxidized Steel Tangram Fox',
-    caption: 'Oxidized Steel Tangram Fox',
-    sub: '',
+    src: '/arts/vanity1.jpg',
+    alt: 'Vanity',
+    caption: 'Acrylic Portrait',
+    sub: `inspired by Cowper's "Vanity"`,
   },
 
 ];

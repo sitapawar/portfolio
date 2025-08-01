@@ -3,9 +3,11 @@ import './style.css';
 import Footer from './Footer';
 import AbstractOverlay from './abstractOverlay';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
+export default function Home() {
+  const navigate = useNavigate();
 
-export default function Home({ onStart }) {
   return (
     
     
@@ -25,7 +27,10 @@ export default function Home({ onStart }) {
           <h2>Data. Design. Narrative.</h2>
           <h1>Sita Pawar</h1>
           <br /><br />
-          <button className="start-button" onClick={onStart}><b>My Work</b></button>
+          <button
+              className="start-button"
+              onClick={() => navigate('/projects')}
+            ><b>My Work</b></button>
 
           {/* Uncomment if you want to include social icons */}
           {/* 

@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Arts from './components/Arts';
+import Books from './components/Books';
 
 function AppWrapper() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/arts" element={<Arts />} />
+          <Route path="/books" element={<Books />} />
         </Routes>
       </div>
 
