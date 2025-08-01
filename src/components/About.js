@@ -16,13 +16,15 @@ export default function About() {
          
 <div class="about-section">
 <div class="centered-profile">
+    {/* <img src="/images/headshot.png" alt="Headshot of Sita Pawar" class="circle-headshot" /> */}
+
   <img src="/images/headshot2.jpg" alt="Headshot of Sita Pawar" class="circle-headshot" />
   <div class="profile-links">
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/3b890521a/" ><b>LinkedIn</b></a>
     <span>·</span>
-    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      <a href="https://github.com/sitapawar" ><b>GitHub</b></a>
     <span>·</span>
-    <a href="/books">Books I Love</a>
+    <a href="/books"><b>Books I Love</b></a>
   </div>
 </div>
 

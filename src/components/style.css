@@ -865,7 +865,7 @@ h3 {
 }
 
 .arts-page {
-  padding: 2rem 1rem;
+  padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -927,7 +927,7 @@ body.light-mode .abstract-lines {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .about-text {
@@ -976,4 +976,86 @@ body.light-mode .abstract-lines {
 
 .profile-links a:hover {
   text-decoration: underline;
+}
+
+body.light-mode .profile-links, body.light-mode .about-text{
+  color:var(--text-dark);
+} 
+
+
+
+/* PORTFOLIO -------------------------------------------- */
+/* === Wrapper for portfolio grid === */
+
+#folio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin:auto;
+}
+
+/* === Each project box === */
+.project-card {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* === Zoom effect on hover === */
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* === Overlay that fades in on hover === */
+.project-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 101%;
+  height: 101%;
+  background: rgba(10, 10, 10, 0.9);
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     /* vertical centering */
+  align-items: center;         /* horizontal centering */
+  text-align: center;
+  /* padding: 1rem; */
+  text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+
+.project-card:hover .project-hover {
+  opacity: 1;
+}
+
+/* === Text inside the overlay === */
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  font-family: 'Datalegreya Thin', serif;
+}
+
+.project-subtitle {
+  font-size: 0.9rem;
+  font-weight: 300;
+  opacity: 0.9;
+  font-family: "Montserat", sans-serif;
+  font-weight: 100;
 }
