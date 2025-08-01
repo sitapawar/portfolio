@@ -32,7 +32,7 @@ export default function ProjectTemplate() {
         <p className="project-paragraph">
           I've also worked on data cleaning, analysis, and visualization for Dr. Alvarez's research on the pyramids and their histories.
         </p>
-        <img src="/images/projects/dptDesign2.png" alt="DPT Homepage Design" className="project-image-full" />
+        <img src="/images/projects/dptDesign 2.png" alt="DPT Homepage Design" className="project-image-full" />
       </section>
 
       <section className="project-section">

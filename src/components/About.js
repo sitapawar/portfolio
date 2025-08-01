@@ -24,7 +24,7 @@ export default function About() {
     <span>·</span>
     <a href="https://github.com/sitapawar" ><b>Github</b></a>
 <span>·</span>
-    <a href="/books"><b>Books I Love</b></a>
+    <a href="/books"><b>Reading</b></a>
   </div>
 </div>
 
@@ -36,8 +36,8 @@ export default function About() {
 					From UX design and development 
 					for a hieroglyph recognition model to data visualization for Italian Renaissance epic poetry or impact investments, I love finding new ways to integrate my interests to create innovative, cohesive products with strong narratives.  
 					
-					{/* I’m passionate about data privacy, fairness, and accessibility and apply these frameworks to my work in order to create sustainable and transparent products. --> */}
-					<br></br><br></br>In my free time, I love reading, mountain biking, painting, theater, and playing Ultimate Frisbee. Someday I hope to retire to a small castle in Scotland.
+					{/* I’m passionate about data privacy, fairness, and accessibility and apply these frameworks to my work in order to create sustainable and transparent products. Someday I hope to retire to a small castle in Scotland.--> */}
+					<br></br><br></br>In my free time, I love reading, mountain biking, painting, theater, and playing Ultimate Frisbee. 
 </p>
   </div>
 </div>
