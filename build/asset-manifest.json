@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4afa8605.css",
+    "main.js": "/static/js/main.886e45cf.js",
+    "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
+    "static/media/Datalegreya-Gradient.otf": "/static/media/Datalegreya-Gradient.74577540ee647dd028e2.otf",
+    "static/media/Datalegreya-Dot.otf": "/static/media/Datalegreya-Dot.6fa841c05016b2a8cd52.otf",
+    "static/media/Datalegreya-Thin.otf": "/static/media/Datalegreya-Thin.5218bd67867bc9ce2fc8.otf",
+    "static/media/mylogo.png": "/static/media/mylogo.bb018c43de418413f958.png",
+    "index.html": "/index.html",
+    "main.4afa8605.css.map": "/static/css/main.4afa8605.css.map",
+    "main.886e45cf.js.map": "/static/js/main.886e45cf.js.map",
+    "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4afa8605.css",
+    "static/js/main.886e45cf.js"
+  ]
+}
