@@ -3,18 +3,18 @@ import './style.css';
 import { motion } from 'framer-motion';
 
 const books = [
-  { img: '/books/exhalation.WebP', alt: 'Exhalation' },
-  { img: '/books/orlando.WebP', alt: 'Orlando Furioso' },
-  { img: '/books/tomorrow.WebP', alt: 'Tomorrow, and Tomorrow, and Tomorrow' },
-  { img: '/books/Mistborn.WebP', alt: 'Misborn' },
-  { img: '/books/unmaskingai.WebP', alt: 'Unmasking AI' },
-  { img: '/books/pride.WebP', alt: 'Pride and Prejudice' },
-  { img: '/books/sirenscall.WebP', alt: 'Siren Call' },
-  { img: '/books/cahokiaJazz.WebP', alt: 'Cahokia Jazz' },
-  { img: '/books/mockingjay.WebP', alt: 'Mockingjay' },
-  { img: '/books/zealot.WebP', alt: 'Zealot' },
-  { img: '/books/caesar.WebP', alt: 'Julius Caesar' },
-  { img: '/books/hailmary.WebP', alt: 'Project Hail Mary' },
+  { img: '/Books/exhalation.WebP', alt: 'Exhalation' },
+  { img: '/Books/orlando.WebP', alt: 'Orlando Furioso' },
+  { img: '/Books/tomorrow.WebP', alt: 'Tomorrow, and Tomorrow, and Tomorrow' },
+  { img: '/Books/Mistborn.WebP', alt: 'Misborn' },
+  { img: '/Books/unmaskingai.WebP', alt: 'Unmasking AI' },
+  { img: '/Books/pride.WebP', alt: 'Pride and Prejudice' },
+  { img: '/Books/sirenscall.WebP', alt: 'Siren Call' },
+  { img: '/Books/cahokiaJazz.WebP', alt: 'Cahokia Jazz' },
+  { img: '/Books/mockingjay.WebP', alt: 'Mockingjay' },
+  { img: '/Books/zealot.WebP', alt: 'Zealot' },
+  { img: '/Books/caesar.WebP', alt: 'Julius Caesar' },
+  { img: '/Books/hailmary.WebP', alt: 'Project Hail Mary' },
 
 
 ];

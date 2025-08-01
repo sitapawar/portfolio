@@ -43,7 +43,7 @@ const images = [
     sub: '',
   },
   {
-    src: '/arts/fox.webp',
+    src: '/arts/fox.webP',
     alt: 'Oxidized Steel Tangram Fox',
     caption: 'Oxidized Steel Tangram Fox',
     sub: '',
@@ -56,7 +56,7 @@ const images = [
   },
 
   {
-    src: '/arts/Pearlear.PNG',
+    src: '/arts/pearlEar.PNG',
     alt: 'Pearl Earring',
     caption: 'Vermeer Study',
     sub: 'The Girl with the Pearl Earring',
