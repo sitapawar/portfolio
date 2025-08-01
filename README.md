@@ -1,18 +1,11 @@
-# Zounds: A Values-Based Reflection Quiz
-
-**Zounds** is an interactive, visually expressive quiz that invites users to explore their alignment with values like Love, Honor, Duty, and Reason — inspired by classical literature, philosophy, and theater.
-
-Users answer a series of questions and receive a plotted chart of their values, normalized and visualized on a 2D graph. The app also tracks response statistics and stores submissions via Supabase.
-
-https://oh-zounds.vercel.app/
+# Personal Portfolio
 
 ---
 
 ## Built With
 
 - **React** (Create React App)
-- **D3.js** for interactive charting
-- **Supabase** (PostgreSQL + RESTful API) for backend storage
+- **Framer** for motion
 - **CSS3** with custom responsive styling
 - **Vercel** for deployment
 

@@ -923,3 +923,57 @@ body.light-mode .abstract-lines {
   stroke: var(--bg-dark); /* or pick a specific dark tone */
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.about-text {
+  max-width: 800px;
+  padding: 0 2rem;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-light);
+  font-family: "Montserat", sans-serif;
+  font-weight: 100;
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    padding: 0 4rem;
+  }
+}
+
+.centered-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.circle-headshot {
+  width: 270px;
+  height: auto;
+  border-radius: 2%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile-links {
+  font-size: 1.1rem;
+  color: var(--text-light); /* or adjust for light mode */
+}
+
+.profile-links a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
