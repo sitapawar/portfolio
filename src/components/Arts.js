@@ -56,7 +56,7 @@ const images = [
   },
 
   {
-    src: '/arts/pearlEar.PNG',
+    src: '/arts/pearlEar.png',
     alt: 'Pearl Earring',
     caption: 'Vermeer Study',
     sub: 'The Girl with the Pearl Earring',
