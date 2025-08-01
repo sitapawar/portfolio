@@ -29,7 +29,7 @@ export default function Navbar() {
     <nav className="navbar" ref={menuRef}>
       <div className="navbar-left" onClick={() => handleNavigate('/')}>
         {/* <img src={logo} alt="Logo" className="navbar-logo" /> */}
-        <span className="navbar-title">Sita.</span>
+        <span className="navbar-title">Sita</span>
       </div>
 
       <div
@@ -40,9 +40,11 @@ export default function Navbar() {
       </div>
 
       <ul className={`navbar-links ${menuOpen ? 'show' : ''}`}>
-        <li onClick={() => handleNavigate('/projects')}><b>projects.</b></li>
-        <li onClick={() => handleNavigate('/arts')}><b>arts.</b></li>
-        <li onClick={() => handleNavigate('/about')}><b>about.</b></li>
+        <li onClick={() => handleNavigate('/projects')}><b>projects</b></li>
+        <li onClick={() => handleNavigate('/arts')}><b>arts</b></li>
+        <li onClick={() => handleNavigate('/about')}><b>about</b></li>
+        <li onClick={() => handleNavigate('/books')}><b>reading</b></li>
+
       </ul>
     </nav>
   );

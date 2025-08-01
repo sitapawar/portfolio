@@ -1402,3 +1402,52 @@ body.light-mode .project-container {
   }
 
 }
+
+
+.cyrano-gallery-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.cyrano-gallery {
+  column-count: 2;
+  column-gap: 2rem;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.cyrano-gallery-item {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+}
+
+.cyrano-gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: for small screens, use 1 column */
+@media (max-width: 768px) {
+  .cyrano-gallery {
+    column-count: 1;
+  }
+}
+
+a {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  color: var(--text-lighter)
+}
+
+.body.light-more a{
+  color:var(--text-muted)}
+
+  a:hover,
+a:focus {
+  text-decoration: none;
+}
