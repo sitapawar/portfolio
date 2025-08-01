@@ -12,7 +12,7 @@ const books = [
   { img: '/Books/sirenscall.WebP', alt: 'Siren Call' },
   { img: '/Books/cahokiaJazz.WebP', alt: 'Cahokia Jazz' },
   { img: '/Books/mockingjay.WebP', alt: 'Mockingjay' },
-  { img: '/Books/zealot.WebP', alt: 'Zealot' },
+  { img: '/Books/johnPaul.WebP', alt: 'John & Paul' },
   { img: '/Books/caesar.WebP', alt: 'Julius Caesar' },
   { img: '/Books/hailmary.WebP', alt: 'Project Hail Mary' },
 
@@ -33,7 +33,7 @@ export default function Books() {
     <div className="arts-page">
         <div className="gallery-header">
         <h1>Books</h1>
-        <p className="lead">Narratives that influence me.</p><p className="lead"><i>Including some I just love :)</i></p>
+        <p className="lead">Narratives that influence me.</p><p className="lead"><i>Including many I just love :)</i></p>
       </div>
     
         <div className="bookshelf">
