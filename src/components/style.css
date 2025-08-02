@@ -1451,3 +1451,17 @@ a {
 a:focus {
   text-decoration: none;
 }
+
+
+.lost  {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-light); /* light text for dark mode */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .lost{
+  background-color: rgba(249, 252, 255, 0.8);
+  color: var(--text-dark); /* dark text for light mode */
+}

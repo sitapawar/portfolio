@@ -13,7 +13,7 @@ import DPT from './components/DPT';
 import Amp from './components/Amp';
 import Partiful from './components/Partiful';
 import Cyrano from './components/Cyrano';
-
+import NotFound from './components/NotFound';
 
 function AppWrapper() {
   return (
@@ -40,6 +40,8 @@ function App() {
           <Route path="/amp" element={<Amp />} />
           <Route path="/partiful" element={<Partiful />} />
           <Route path="/cyrano" element={<Cyrano />} />
+          <Route path="*" element={<NotFound />} />
+
         </Routes>
       </div>
 

@@ -68,10 +68,10 @@ const images = [
     // sub: 'by Sita Pawar',
   },
   {},{
-    src: '/arts/vanity1.jpg',
-    alt: 'Vanity',
-    caption: 'Acrylic Portrait',
-    sub: `inspired by Cowper's "Vanity"`,
+    src: '/arts/poster.png',
+    alt: 'Music Poster',
+    caption: 'Concert Poster',
+    sub: `Photography and Graphic Design`,
   },
 
 ];
