@@ -198,7 +198,7 @@ export default function NotFound() {
             <section className="project-section">
               <p className="lost">
                 The page you're looking for doesn't exist or has been moved.
-                Here's a useless fact to make up for it:
+                Here's a possibly true useless fact to make up for it:
               </p>
               {fact && (
                 <div className="useless-fact">
@@ -211,7 +211,7 @@ export default function NotFound() {
             <br /><br />
             <button
               className="start-button"
-              onClick={() => navigate('/home')}
+              onClick={() => navigate('/')}
             >
               <b>Return to Home</b>
             </button>
