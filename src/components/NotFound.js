@@ -197,8 +197,8 @@ export default function NotFound() {
             <h2><b>404: Page Not Found</b></h2>
             <section className="project-section">
               <p className="lost">
-                The page you're looking for doesn't exist or has been moved.
-                Here's a possibly true useless fact to make up for it:
+                The page you're looking for doesn't exist or has been moved.<br></br>
+                Here's a <u>possibly</u> true useless fact to make up for it:
               </p>
               {fact && (
                 <div className="useless-fact">
