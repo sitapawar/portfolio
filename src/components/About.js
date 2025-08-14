@@ -37,7 +37,7 @@ export default function About() {
 					for a hieroglyph recognition model to data visualization for Italian Renaissance epic poetry or impact investments, I love finding new ways to integrate my interests to create innovative, cohesive products with strong narratives.  
 					
 					{/* I’m passionate about data privacy, fairness, and accessibility and apply these frameworks to my work in order to create sustainable and transparent products. Someday I hope to retire to a small castle in Scotland.--> */}
-					<br></br><br></br>In my free time, I love reading, mountain biking, painting, theater, and playing Ultimate Frisbee. 
+					<br></br><br></br>In my free time, I love reading, mountain biking, painting, theater, and playing Ultimate Frisbee. <br></br><br></br>Feel free to reach out to me at <u>sitap1516@gmail.com</u>
 </p>
   </div>
 </div>
